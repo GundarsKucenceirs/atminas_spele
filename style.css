@@ -15,7 +15,10 @@ ul{
 li{
     display: inline-block;
 }
-
+.game{
+    width: 350px;
+    background: rgb(70, 56, 70);
+}
 
 .block{
     display: inline-block;  
