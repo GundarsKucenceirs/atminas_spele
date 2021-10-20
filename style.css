@@ -7,6 +7,21 @@ h1{
     text-align: center;
     background: rgb(221, 155, 131);
 }
+
+
+ul{
+    text-align: center;
+}
 li{
     display: inline-block;
+}
+
+
+.block{
+    display: inline-block;  
+    background: rgb(74, 77, 71);
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+
 }
