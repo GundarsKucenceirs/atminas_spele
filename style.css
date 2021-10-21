@@ -7,7 +7,9 @@ h1{
     text-align: center;
     background: rgb(221, 155, 131);
 }
-
+.saraksts{
+    text-decoration:none;
+}
 
 ul{
     text-align: center;
