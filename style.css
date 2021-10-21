@@ -20,6 +20,7 @@ li{
 .game{
     width: 350px;
     background: rgb(70, 56, 70);
+    margin:auto;
 }
 
 .block{
@@ -28,7 +29,8 @@ li{
     width: 100px;
     height: 100px;
     border: 2px solid white;
-
+    
+    
 }
 .content{
     text-align: center;
