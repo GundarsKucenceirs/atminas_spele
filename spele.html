@@ -65,10 +65,24 @@
         </div>
    </div><!--beidzas wraper-->
 <script>
+    let laukumuSaturs = ['😆','😎','😋','😎','😆','😋']
+    let atvertieLaukumi = []
+    let pedejieDivi = []
+
     function veiktGajienu(laukums)
     {
         document.querySelector('#'+laukums+' div').style.display="block"
+
+        atvertieLaukumi.push(laukums)
+
+        if(laukumuSaturs.lenght==atvertieLaukumi.length)
+        {
+            
+        }
+
         console.log(laukums)
+
+
     }
 
 
