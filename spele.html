@@ -72,18 +72,29 @@
     function veiktGajienu(laukums)
     {
         let atvertsJaunslaukums = false;
+        if(atvertieLaukumi.indexOf(laukums) == -1)
+        {
+            atvertsJaunslaukums = true
+        }
+        else
+        {
+            atvertsJaunslaukums = false
+        }
 
-
+        if(atvertsJaunslaukums)
+        {
         document.querySelector('#'+laukums+' div').style.display="block"
+        pedejieDivi.push(laukums)
+        }
 
         atvertieLaukumi.push(laukums)
 
-        if(laukumuSaturs.lenght==atvertieLaukumi.length)
+        if(laukumuSaturs.lenght == atvertieLaukumi.length)
         {
             alert('Apsveicam')
         }
 
-        console.log(laukums)
+       
 
 
     }
