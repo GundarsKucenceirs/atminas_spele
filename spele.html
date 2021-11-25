@@ -71,13 +71,16 @@
 
     function veiktGajienu(laukums)
     {
+        let atvertsJaunslaukums = false;
+
+
         document.querySelector('#'+laukums+' div').style.display="block"
 
         atvertieLaukumi.push(laukums)
 
         if(laukumuSaturs.lenght==atvertieLaukumi.length)
         {
-            
+            alert('Apsveicam')
         }
 
         console.log(laukums)
